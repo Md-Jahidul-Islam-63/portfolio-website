@@ -1,13 +1,21 @@
 body {
-    font-family: 'Poppins', sans-serif;
     margin: 0px;
-    padding: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
+    font-size: 50px;
+}
+
+h2 {
     font-size: 40px;
 }
-.name {
+
+p {
+    color: #999;
+}
+
+.text-highlight {
     color: orange;
 }
 
@@ -16,7 +24,6 @@ h1 {
     float: left;
     margin-left: 5%;
     padding-left: 2%;
-    margin-top: 75px;
 }
 
 .half-width img {
@@ -24,16 +31,27 @@ h1 {
 }
 
 .top-section {
-    background-image: url(images/top-banner.png);
-    height: 500px;
+    background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
 
-.half-width a {
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-    background-image: linear-gradient( 45deg, lightsalmon, tomato);
-    padding: 8px 25px;
-    border-radius: 5px;
+section {
+    height: 600px;
 }
+
+.link-button {
+    text-decoration: none;
+    color: #fff;
+    background-image:linear-gradient(45deg, #FFA07A, #FF6347);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700px;
+}
+
+.dream-section {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 50px;
+}
+
